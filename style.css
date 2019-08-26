@@ -1,0 +1,43 @@
+p {
+   font-family: serif;
+   letter-spacing: .05rem;
+   font-size: 1.2rem;
+   color: rgb(65, 64, 64);
+}
+
+a {
+   color: orange;
+   text-decoration: none;
+}
+
+a:visited {
+   color: grey;
+}
+
+a:hover {
+   color: crimson;
+}
+
+body {
+   width: 90%;
+   margin: 0 auto;
+
+   background: url(assets/img/logo_Becode.png), -webkit-radial-gradient(rgb(255, 255, 255), rgb(134, 169, 183));
+
+   background: url(assets/img/logo_Becode.png), radial-gradient(rgb(255, 255, 255), rgb(134, 169, 183));
+
+   background-position: bottom right;
+   background-attachment: fixed;
+
+   background-repeat: no-repeat;
+}
+
+blockquote {
+   width: 50vw;
+   margin: 0 auto;
+   font-size: 1.6rem;
+   background-color: lightgray;
+   border-left: 3px solid rgb(65, 64, 64);
+   padding: 30px;
+   margin: 80px 0;
+}
