@@ -1,3 +1,11 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
 p {
    font-family: serif;
    letter-spacing: .05rem;
@@ -55,4 +63,75 @@ blockquote {
 
 header h1:first-child {
    background-color: yellow;
+}
+
+q {
+   font-style: italic;
+}
+
+.good, .bad {
+   text-transform: uppercase;
+   color: green;
+}
+
+.bad {
+   color: red;
+}
+
+table tr {
+   background-color: #fff;
+}
+
+table tr:nth-of-type(even), table thead tr {
+   background-color: lightgray;
+}
+
+ul li {
+   background-repeat: no-repeat;
+   background-position: 32ch 0;
+   padding: 1rem 0;
+}
+
+ul li:first-child {
+   background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-4.14/master/03-HTML-CSS/html-css-2/bien.png?token=AHLXUQ6DXYKPI2OPNMJPTPK5NYYAU");
+}
+
+ul li:nth-child(2) {
+   background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-4.14/master/03-HTML-CSS/html-css-2/mal.png?token=AHLXUQ6E5XJ4SRYNHTCLNW25NYZFK");
+}
+
+ul li:nth-of-type(3) {
+   background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-4.14/master/03-HTML-CSS/html-css-2/chat.png?token=AHLXUQ6BZAMCQFIPW7SLW2K5NY252");
+}
+
+header p:first-of-type {
+   font-weight: bold;
+}
+
+main section img {
+   width: 500px;
+   margin: .5rem;
+}
+
+main section figure:first-of-type{
+   float: left;
+}
+
+main section:first-child figure:nth-of-type(2){
+   float: none;
+}
+
+main section p {
+   font-size: 1.5rem;
+}
+
+main section:first-child::after {
+   content: "";
+   clear: both;
+}
+
+main section figure::after{
+   content: '';
+   display: block;
+   clear: both; 
 }
