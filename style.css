@@ -135,3 +135,7 @@ main section figure::after{
    display: block;
    clear: both; 
 }
+
+caption {
+   caption-side: bottom;
+}
